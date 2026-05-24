@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:paddingTop="60dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <!-- TITLE -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Campus Housing"
+        android:textColor="#CCCCCC"
+        android:textSize="46sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#00E5FF"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- GLASS CARD -->
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/glass_card"
+        android:hint="Email Address"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0BEC5" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/glass_card"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0BEC5" />
+
+    <!-- REGISTER BUTTON -->
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="307dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="#00E5FF"
+        android:background="@drawable/glow_button"/>
+    <!-- LOGIN LINK -->
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"
+        android:textColor="#00E5FF"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
